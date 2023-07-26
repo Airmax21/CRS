@@ -16,7 +16,7 @@ class Home extends MY_Controller
     public function index()
     {
         $header['home'] = 'Dashboard';
-        $header['css'] = array();
+        $header['css'] = array('home');
         $this->load->view('app/header', $header);
         $this->load->view('home');
     }
@@ -33,6 +33,13 @@ class Home extends MY_Controller
         $header['css'] = array();
         $this->load->view('app/header', $header);
         $this->load->view('catalog');
+    }
+    public function service()
+    {
+        $header['home'] = 'Dashboard';
+        $header['css'] = array();
+        $this->load->view('app/header', $header);
+        $this->load->view('service');
     }
     public function cart()
     {

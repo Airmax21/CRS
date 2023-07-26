@@ -17,6 +17,9 @@
   <script src="<?= base_url() ?>assets/plugin/jquery/jquery.js"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFSWE5V8W7"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
 </head>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -29,6 +32,8 @@
   gtag('config', 'G-WFSWE5V8W7');
 </script>
 <style>
+  body{
+    font-family: 'Irish Grover', cursive;
+  }
 </style>
-
 <body>
